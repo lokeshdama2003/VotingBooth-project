@@ -1,0 +1,18 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+
+# macOS system files
+.DS_Store
+
+# Eclipse settings and metadata
+.metadata/
+.settings/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
