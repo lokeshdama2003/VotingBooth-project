@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Voter Verification</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Electronic Voting Booth</h1>
+
+    <p>Voter Verification</p>
+
+</header>
+
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Voter Verification</h2>
+
+        <p>
+            Enter your registered Voter ID and select one party.
+        </p>
+
+
+        <form action="vote" method="post">
+
+
+            <label>
+                <b>Voter ID</b>
+            </label>
+
+            <input
+                type="number"
+                name="voterId"
+                required
+            >
+
+
+            <h3>Select Party</h3>
+
+
+            <label class="party-option">
+
+                <input
+                    type="radio"
+                    name="candidateId"
+                    value="1"
+                    required
+                >
+
+                TDP
+
+            </label>
+
+
+            <label class="party-option">
+
+                <input
+                    type="radio"
+                    name="candidateId"
+                    value="2"
+                    required
+                >
+
+                YSRCP
+
+            </label>
+
+
+            <br>
+
+
+            <button type="submit">
+                Confirm Vote
+            </button>
+
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    Electronic Voting System
+
+</footer>
+
+</body>
+
+</html>
